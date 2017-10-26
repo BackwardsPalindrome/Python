@@ -25,6 +25,7 @@ def initialize():
               7: [],
               8: [],
               9: []}
+    # All the winning states
     win = {frozenset({7, 8, 9}), frozenset({4, 5, 6}), frozenset({1, 2, 3}),
            frozenset({7, 4, 1}), frozenset({8, 5, 2}), frozenset({9, 6, 3}),
            frozenset({7, 5, 3}), frozenset({9, 5, 1})}
@@ -223,7 +224,7 @@ def game_over_UI(state):
         turtle.rt(90)
     turtle.end_fill()
 
-    # Setting pop-up color
+    # Setting end game pop-up prompts
     if state == 'won':
         message = "You won the Game!"
     elif state == 'lost':
