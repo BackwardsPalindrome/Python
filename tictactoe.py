@@ -1,4 +1,3 @@
-# 345
 import turtle
 import random
 
