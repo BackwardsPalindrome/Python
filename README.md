@@ -1,2 +1,2 @@
 # Python
-My python practice scripts.
+Some python practice scripts.
